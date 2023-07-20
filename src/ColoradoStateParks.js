@@ -5,12 +5,12 @@ import RockyMountains from "./parks/RockyMountain";
 
 function ColoradoStateParks() {
   howManyParks(); // => "42 parks!"
-   
+  wildlife();
+  elevation();
   return (
     <div>
   <h1>Colorado State Parks!</h1>;
   <MesaVerde />
-  <RockyMountains />
   </div>
   )
 }
